@@ -3,35 +3,61 @@
 &nbsp;
 
 ## Table of Contents
-* [Launchpad Assignment](#raspberry_pi_assignment_template)
+* [Launchpad](#Launchpad)
+    * [Countdown](#Countdown)
+    * [Lights](#Lights)
+    * [Button](#Button)
+    * [Servo](#Servo)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Launchpad
+# Launchpad 
+## Countdown Part 1
 
-### **Assignment Description**
+### Assignment Description
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
-### **Evidence** 
+### Evidence
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
-### **Wiring**
+### Wiring
 
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
-### **Code**
+### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). 
 
 
-### **Reflection**
+### Reflection
 
-When making the range loop, make sure that everything you want to have in that loop is "tabbed." Also making sure that you have imported all the necessary boards for the assignment or else it will not function. 
+When making the range loop, make sure that everything you want to have in that loop is "tabbed." Also making sure that you have imported all the necessary boards for the assignment or else it will not function. Lastly, if you want something to get all the way down to one on your serial monitor, make sure to include zero in your range.
+
+&nbsp;
+
+## Lights (LaunchpadPt.2)
+
+### Assignment Description
+
+Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
+### Evidence
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). 
 
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+### Reflection
+
+When making the range loop, make sure that everything you want to have in that loop is "tabbed." Also making sure that you have imported all the necessary boards for the assignment or else it will not function. Lastly, if you want something to get all the way down to one on your serial monitor, make sure to include zero in your range.
 
 &nbsp;
 
