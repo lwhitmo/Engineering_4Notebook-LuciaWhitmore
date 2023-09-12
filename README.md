@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Launchpad](#Launchpad)
-    * [Countdown](#Countdown)
+    * [Countdown](#Countdown_Part_1)
     * [Lights](#Lights)
     * [Button](#Button)
     * [Servo](#Servo)
