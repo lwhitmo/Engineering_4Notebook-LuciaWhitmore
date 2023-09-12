@@ -48,7 +48,7 @@ When making the range loop, make sure that everything you want to have in that l
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![imgag](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-resize.jpg) 
 
 ### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). 
