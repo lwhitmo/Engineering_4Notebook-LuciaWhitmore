@@ -17,7 +17,6 @@ for x in range(10,0,-1):
 
 
 
-
 print("Liftoff!") 
 greenLED.value = True
 time.sleep(3)
