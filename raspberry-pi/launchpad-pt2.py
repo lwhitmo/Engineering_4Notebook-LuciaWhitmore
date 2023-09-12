@@ -10,9 +10,9 @@ greenLED.direction = digitalio.Direction.OUTPUT
 
 for x in range(10,0,-1):
    print(x)
-   redled.value = False
-   time.sleep(.5)
    redled.value = True
+   time.sleep(.5)
+   redled.value = False
    time.sleep(.5)
 
 
