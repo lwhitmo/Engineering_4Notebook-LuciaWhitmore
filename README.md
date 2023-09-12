@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Launchpad](#Launchpad)
     * [Countdown](#Countdown_Part_1)
-    * [Lights](#Lights)
+    * [Lights](#Lights(LaunchpadPt.2))
     * [Button](#Button)
     * [Servo](#Servo)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
@@ -17,15 +17,14 @@
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Print on the serial monitor a countdown from 10 seconds to 0. When the countdown reaches 0, print "Liftoff."
+
 
 ### Evidence
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![countdowngif](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-crop.gif)
 
-### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). 
@@ -41,11 +40,11 @@ When making the range loop, make sure that everything you want to have in that l
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor. Turn on a green LED to indicate liftoff and blink a red light every second during the countdown.
 
 ### Evidence
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![ledcountdown](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-optimize.gif)
 
 ### Wiring
 
@@ -57,7 +56,7 @@ Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore
 
 ### Reflection
 
-When making the range loop, make sure that everything you want to have in that loop is "tabbed." Also making sure that you have imported all the necessary boards for the assignment or else it will not function. Lastly, if you want something to get all the way down to one on your serial monitor, make sure to include zero in your range.
+When you are in the loop of range, make sure you order the led's turning on in the order of first on and THEN off. This makes sure that when the loop is over, your led will turn off. Also make sure that you connect your LED's to the right corresponding pins.
 
 &nbsp;
 
