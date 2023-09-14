@@ -13,7 +13,7 @@
 &nbsp;
 
 # Launchpad 
-## Countdown Part 1
+## Countdown_Part_1
 
 ### Assignment Description
 
@@ -44,7 +44,7 @@ When making the range loop, make sure that everything you want to have in that l
 
 ### Evidence
 
-![ledcountdown](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-optimize.gif)
+![ledcountdown](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Countdownlaunchpad.gif)
 
 ### Wiring
 
@@ -57,6 +57,30 @@ Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore
 ### Reflection
 
 When you are in the loop of range, make sure you order the led's turning on in the order of first on and THEN off. This makes sure that when the loop is over, your led will turn off. Also make sure that you connect your LED's to the right corresponding pins.
+
+&nbsp;
+
+## Lights + Button (LaunchpadPt.3)
+
+### Assignment Description
+
+A button wil start the code running. 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor. Turn on a green LED to indicate liftoff and blink a red light every second during the countdown.
+
+### Evidence
+
+![ledcountdown](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Countdownlaunchpad.gif)
+
+### Wiring
+
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-resize.jpg" width = 400> ## need to change
+
+### Code
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). ##need to change
+
+
+### Reflection
+
+When you are in the loop of range, make sure you order the led's turning on in the order of first on and THEN off. This makes sure that when the loop is over, your led will turn off. Also make sure that you connect your LED's to the right corresponding pins. ## PLaceholder- need to chnage
 
 &nbsp;
 

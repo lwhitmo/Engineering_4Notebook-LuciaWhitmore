@@ -22,7 +22,7 @@ while button.value == False: # Run the following code in a loop while the button
    
    if button.value == True:   # Check if the button value becomes True
 
-      for x in range(10,0,-1):  # Count down from 10 to 1 and perform some actions            print(x)  # Print the current countdown value
+      for x in range(10,0,-1):  # Count down from 10 to 1 and perf-orm some actions            print(x)  # Print the current countdown value
          redled.value = True  # Turn on the red LED
          time.sleep(.5)  # Pause for 0.5 seconds
          redled.value = False  # Turn off the red LED
