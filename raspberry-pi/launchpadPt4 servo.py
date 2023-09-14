@@ -4,6 +4,8 @@
 import time
 import board
 import digitalio 
+import pwmio
+from adafruit_motor import servo
 
 # Initialize a digital input for the button using GP0 pin
 button = digitalio.DigitalInOut(board.GP0) 
@@ -17,6 +19,8 @@ redled.direction = digitalio.Direction.OUTPUT
 # Initialize a digital output for the green LED using GP19 pin
 greenLED =digitalio.DigitalInOut(board.GP19)
 greenLED.direction = digitalio.Direction.OUTPUT 
+
+pwm_servo = pwmio.PWMOut(board.GP1, duty_cycle=2 ** 15, frequency=50)
 
 while button.value == False: # Run the following code in a loop while the button value is False
    
