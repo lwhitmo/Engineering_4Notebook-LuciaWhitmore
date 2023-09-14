@@ -68,7 +68,7 @@ A button wil start the code running. 10 seconds till the countdown ends at 0 (li
 
 ### Evidence
 
-![ledcountdown](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Countdownlaunchpad.gif)
+![ledcountdown/w button](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/buttonvideolaunchpad.gif)
 
 ### Wiring
 
