@@ -1,4 +1,5 @@
 # The following line is a comment that indicates the type checking tool to ignore this file.
+#type: ignore
 # This can be useful when using tools like mypy for static type checking.
 
 # Import necessary modules
