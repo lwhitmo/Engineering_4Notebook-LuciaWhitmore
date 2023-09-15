@@ -2,10 +2,11 @@
 
  # Import necessary libraries/modules
 import time
-import board
+import board # Provides access to hardware pins on microcontrollers
 import digitalio 
-import pwmio # servoo
-from adafruit_motor import servo #servo
+import pwmio  # Provides Pulse Width Modulation (PWM) support
+from adafruit_motor 
+import servo # Provides servo motor control functionality
 
 # Initialize a digital input for the button using GP0 pin
 button = digitalio.DigitalInOut(board.GP0) 
@@ -20,10 +21,14 @@ redled.direction = digitalio.Direction.OUTPUT
 greenLED =digitalio.DigitalInOut(board.GP19)
 greenLED.direction = digitalio.Direction.OUTPUT 
 
+
+ # Create a PWM output on pin GP1 with a specific duty cycle and frequency
 pwm_servo = pwmio.PWMOut(board.GP1, duty_cycle=2 ** 15, frequency=50)
+# Create a Servo object named 'servo1' using the PWM output 'pwm_servo'
+# and specify the minimum and maximum pulse width values
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 
-servo1.angle = 0
+servo1.angle = 0 # sets servo to initial posistion
 
 while button.value == False: # Run the following code in a loop while the button value is False
    
@@ -39,10 +44,9 @@ while button.value == False: # Run the following code in a loop while the button
       
       print("Liftoff!")   # When the countdown is complete, print "Liftoff!" and turn on the green LED
       greenLED.value = True
-       # time.sleep(3)  # Keep the green LED on for 3 seconds
-      servo1.angle = 180
-      time.sleep(2)
-      break
+      servo1.angle = 180 # rotates servo 180 degrees
+      time.sleep(2)  # Keep the green LED on for 2 seconds
+      break # stop code
 
 
 
