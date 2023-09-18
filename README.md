@@ -63,8 +63,9 @@ When you are in the loop of range, make sure you order the led's turning on in t
 ## Lights + Button (LaunchpadPt.3)
 
 ### Assignment Description
-
-A button wil start the code running. 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor. Turn on a green LED to indicate liftoff and blink a red light every second during the countdown.
+10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
+Turn on a green LED to indicate liftoff and blink a red light every second during the countdown.
+Include a button on the countdown's physical trigger. 
 
 ### Evidence
 
@@ -72,15 +73,42 @@ A button wil start the code running. 10 seconds till the countdown ends at 0 (li
 
 ### Wiring
 
-<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/ezgif.com-resize.jpg" width = 400> ## need to change
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Button%20wiring.heif" width = 400> 
 
 ### Code
-Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpad.py). ##need to change
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt3%20button.py).
 
 
 ### Reflection
 
-When you are in the loop of range, make sure you order the led's turning on in the order of first on and THEN off. This makes sure that when the loop is over, your led will turn off. Also make sure that you connect your LED's to the right corresponding pins. ## PLaceholder- need to chnage
+Most importantly, when wiring your button make sure it correctly coresponds with you code. AKA. Pull up or pull down. Pull down --> wire to 3V3 & button pin and base state is False (0V). Pull Up -->  wire to GND & button pin and base staye is True (3V). NEVER WIRE TO 5V!! Will short out pico.
+
+&nbsp;
+
+## Lights + Button +Servo (LaunchpadPt.4)
+
+### Assignment Description
+10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
+Turn on a green LED to indicate liftoff and blink a red light every second during the countdown.
+Include a button on the countdown's physical trigger. 
+On takeoff, move a servo 180 degrees to represent the launch tower becoming disconnected.
+
+
+### Evidence
+
+![ledcountdown/w servo](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/buttonvideolaunchpad.gif)
+
+### Wiring
+
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Servo%20wiring%20(1).heif" width = 400>
+
+### Code
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt3%20button.py). ##need to change
+
+
+### Reflection
+
+Most importantly, when wiring your button make sure it correctly coresponds with you code. AKA. Pull up or pull down. Pull down --> wire to 3V3 & button pin and base state is False (0V). Pull Up -->  wire to GND & button pin and base staye is True (3V). NEVER WIRE TO 5V!! Will short out pico.
 
 &nbsp;
 
