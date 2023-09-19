@@ -103,12 +103,15 @@ On takeoff, move a servo 180 degrees to represent the launch tower becoming disc
 <img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/sevowiriirnh.jpg" width = 400>
 
 ### Code
-Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt3%20button.py). ##need to change
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt4%20servo.py). 
 
 
 ### Reflection
 
-Most importantly, when wiring your button make sure it correctly coresponds with you code. AKA. Pull up or pull down. Pull down --> wire to 3V3 & button pin and base state is False (0V). Pull Up -->  wire to GND & button pin and base staye is True (3V). NEVER WIRE TO 5V!! Will short out pico.
+When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Also make sure that you are only using the correct PWM pin, there are mutiple for every pico, meaning you dont want to accidentally put two inputs to one PWM pin.
+
+#### Example 
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Capture.PNG" width = 400>
 
 &nbsp;
 
