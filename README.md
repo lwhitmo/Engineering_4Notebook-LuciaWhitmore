@@ -73,7 +73,7 @@ Include a button on the countdown's physical trigger.
 
 ### Wiring
 
-<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Button%20wiring.jpg" width = 400> 
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/buttonwiring.jpg" width = 400> 
 
 ### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt3%20button.py).
@@ -96,11 +96,11 @@ On takeoff, move a servo 180 degrees to represent the launch tower becoming disc
 
 ### Evidence
 
-![ledcountdown/w servo](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/buttonvideolaunchpad.gif)
+![ledcountdown/w servo](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Launchpad%20Servo.gif)
 
 ### Wiring
 
-<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Servo%20wiring.jpg" width = 400>
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/sevowiriirnh.jpg" width = 400>
 
 ### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/launchpadPt3%20button.py). ##need to change
