@@ -4,16 +4,16 @@
 
 ## Table of Contents
 * [Launchpad](#Launchpad)
-    * [Countdown](#Countdown_Part_1)
-    * [Lights](#Lights(LaunchpadPt.2))
-    * [Button](#Button)
-    * [Servo](#Servo)
+    * [Countdown](#Launchpad_Part_1)
+    * [Lights](#LaunchpadPt.2_(Lights))
+    * [Button](#LaunchpadPt.3_(Button))
+    * [Servo](#LaunchpadPt.4_(Servo))
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
 # Launchpad 
-## Countdown_Part_1
+## Launchpad_Part_1
 
 ### Assignment Description
 
@@ -36,7 +36,7 @@ When making the range loop, make sure that everything you want to have in that l
 
 &nbsp;
 
-## Lights (LaunchpadPt.2)
+## LaunchpadPt.2 (Lights)
 
 ### Assignment Description
 
@@ -60,7 +60,7 @@ When you are in the loop of range, make sure you order the led's turning on in t
 
 &nbsp;
 
-## Lights + Button (LaunchpadPt.3)
+## LaunchpadPt.3_(Button)
 
 ### Assignment Description
 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
@@ -85,7 +85,7 @@ Most importantly, when wiring your button make sure it correctly coresponds with
 
 &nbsp;
 
-## Lights + Button +Servo (LaunchpadPt.4)
+## LaunchpadPt.4_(Servo)
 
 ### Assignment Description
 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
