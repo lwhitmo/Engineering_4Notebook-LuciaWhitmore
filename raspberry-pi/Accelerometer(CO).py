@@ -15,10 +15,11 @@ mpu = adafruit_mpu6050.MPU6050(i2c)
 while True:
    
    x = round(mpu.acceleration[0],3)
-   y = (mpu.acceleration[1])
-   z = (mpu.accelertaion[2])
+   y = round(mpu.acceleration[1],3)
+   z = round(mpu.acceleration[2],3)
 
-   print()
-
+   print(f" x Acceleration:{x} \n y Acceleration:{y} \n z Acceleration:{z}")
+   print("")
+   
    time.sleep(1)
 
