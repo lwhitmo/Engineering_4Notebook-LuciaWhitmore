@@ -137,8 +137,7 @@ Link to my [code]().
 
 
 
-#### Example 
-<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Capture.PNG" width = 400>
+
 
 &nbsp;
 
