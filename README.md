@@ -115,6 +115,33 @@ When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Als
 
 &nbsp;
 
+## Code Template
+
+### Assignment Description
+description
+
+
+### Evidence
+
+![blank](gif)
+
+### Wiring
+
+<img src="" width = 400>
+
+### Code
+Link to my [code](). 
+
+
+### Reflection
+
+
+
+#### Example 
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/Capture.PNG" width = 400>
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
