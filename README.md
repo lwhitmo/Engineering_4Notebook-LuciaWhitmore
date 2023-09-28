@@ -115,7 +115,7 @@ When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Als
 
 &nbsp;
 
-## Code Template
+## Accelerometer(CO)
 
 ### Assignment Description
 description
@@ -136,6 +136,79 @@ Link to my [code]().
 ### Reflection
 
 
+
+
+&nbsp;
+
+## Lights + Power (CO)
+
+### Assignment Description
+description
+
+
+### Evidence
+
+![blank](gif)
+
+### Wiring
+
+<img src="" width = 400>
+
+### Code
+Link to my [code](). 
+
+
+### Reflection
+If you need an easy variable to check if something is not at 90 degrees in all idrections, the Z variable is your friend. Instead of putting in a million if statements regarding what you dont want the other variable to be, the Z variable is uniform in the angle of 90 degrees all sides. Else statements are also helpful, "if it is not this then do this"
+
+
+
+&nbsp;
+
+## OLED(CO)
+
+### Assignment Description
+description
+
+
+### Evidence
+
+![blank](gif)
+
+### Wiring
+
+<img src="" width = 400>
+
+### Code
+Link to my [code](). 
+
+
+### Reflection
+Use the multiple I2C code checker to check which devices you should use in your code. Also when adding the screen, you need to update the mpu = adafruit_mpu6050.MPU6050(i2c) line of your code to mpu = adafruit_mpu6050.MPU6050(i2c, address=your-address-here). (swap them out.)
+
+
+
+&nbsp;
+
+## Code Template
+
+### Assignment Description
+description
+
+
+### Evidence
+
+![blank](gif)
+
+### Wiring
+
+<img src="" width = 400>
+
+### Code
+Link to my [code](). 
+
+
+### Reflection
 
 
 
