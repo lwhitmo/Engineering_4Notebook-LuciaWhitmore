@@ -8,7 +8,9 @@
     * [Lights](#LaunchpadPt.2_(Lights))
     * [Button](#LaunchpadPt.3_(Button))
     * [Servo](#LaunchpadPt.4_(Servo))
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Crash Avoidance](#Crash_Avoidance)
+    * [Accelerometer(CO)](#Accelerometer(CO))    
+* [FEA_Beam_Assignment](#FEA_Beam_Assignment)
 
 &nbsp;
 
@@ -115,6 +117,8 @@ When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Als
 
 &nbsp;
 
+## Crash_Avoidance
+
 ## Accelerometer(CO)
 
 ### Assignment Description
@@ -214,11 +218,11 @@ Link to my [code]().
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## FEA_Beam_Assignment_1
 
 ### Assignment Description
 
-Cyrus and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold a weight of 180mm from the start of the beam, it couldn't weigh more than 13g and it couldn't use any support material. We had to use PLA material.
+Cyrus and I were tasked with making a 3D-printed beam that could support the most weight. The parameters were that the beam had to hold a weight of 180mm from the start of the beam, it couldn't weigh more than 13g and it couldn't use any support material. We had to use PLA material.
 
 ### Part Link 
 
@@ -233,6 +237,64 @@ Cyrus and I were tasked with making a 3d printed beam that could support the mos
 Cyrus and I made two different designs to optimize time and design energy. The types of beams we made were an upsidedown T beam and a makeshift spoon beam. The logic behind the spoon beam is mostly focused on tension along the Z axis, trying to hold the most weight vertically with a skinny base. 
 
 &nbsp;
+
+# FEABeamAssignmentPart3
+
+### Assignment Description
+
+We were tasked with using onshape simulation tools to test our beams before printing them. By using the force tool we can simulate how our beam would react to having a weight on the end of it. This is useful for picking the best beam and for knowing where we need to make adjustments.
+
+
+### Part Link 
+
+[FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
+### Part Image
+#### Stress Image
+![PartImage1a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
+#### Displacement Image
+![PartImage1b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation%20Displacement.png)
+
+#### Part 1 Analysis
+To improve this design it would be good to remove material from the dark blue areas and add it to the red. This would involve removing parts of the side skirts and adding more to the spine that is close to the holder. There is the most stress there so it will also be good to use filets and chamfers to get rid of weak 90-degree points.
+
+#### Stress Image
+![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Stress.png)
+#### Displacement Image
+![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
+
+#### Part 2 Analysis
+This design will need more changes than design 1. It would be benfitial to angle the fins to create more rigidity. It would be good to remove some material from the end of it and beef up the part close to the mounting point. If you look at the stress image you can see where it had the weakest point.
+
+
+### Reflection
+
+# FEABeamAssignmentPart4
+
+### Assignment Description
+After completing part 3 we need to take what we learned and put it into our model. We are supposed to run multiple simulations after each change that we make to see if we have any improvement. Our design is pretty good right now but we will have to make small but important changes to the weak points to improve our design.
+
+### Part Link 
+
+[FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
+### Part Image
+
+####  Improvements
+Because Lucia was out for most of the week we did this the main changes were all done by me but on the last day we decided to divide and conquer to see who could make a better design. As it turns out Lucia's design beat mine by a stress factor of 1 point so we decided to go with hers. Our maxium improvement was improved by a factor of 36.27% which is good considering that our design was already at a stress factor of 11.57.
+
+#### Lucia's Stress Image
+![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20stress.png)
+#### Lucia's Displacement Image
+![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20displacement.png)
+
+#### Cyrus's Stress Image
+![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20stress.png)
+#### Cyrus's Displacement Image
+![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20displacement.png)
+
+### Reflection
+
+The FEA in ONSHAPE tool unfortunetly took a very long amount of time per every simulation. This was a hiccup in certain plans due to the fact that we needed to account for longer amounts of time per every design. 
+
 
 ## Media Test
 
