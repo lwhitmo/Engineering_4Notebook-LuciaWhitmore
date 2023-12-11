@@ -10,7 +10,7 @@
     * [Servo](#Servo)
 * [Crash_Avoidance](#Crash_Avoidance)
     * [Accelerometer](#Accelerometer)
-    * [Lights+Power](#Lights+Power)
+    * [Lights_Power_Action](#Lights_Power_Action)
     * [OLED](#OLED)   
 * [FEA_Beam_Assignment](#FEA_Beam_Assignment)
 
@@ -145,7 +145,7 @@ This code incorporates two new concepts, such as rounding and .
 
 &nbsp;
 
-## Lights+Power
+## Lights_Power_Action
 
 ### Assignment Description
 description
