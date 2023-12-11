@@ -122,23 +122,22 @@ When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Als
 ## Accelerometer(CO)
 
 ### Assignment Description
-description
-
+Wire up and write some code for an accelerometer that prints the x, y and z axes of acceleration on the serial monitor in real time. 
 
 ### Evidence
 
-![blank](gif)
+![accelerometer vid](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/My%20Project.gif)
 
 ### Wiring
 
 <img src="" width = 400>
 
 ### Code
-Link to my [code](). 
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/Crash%20Avoidance/Accelerometer(CO).py)
 
 
 ### Reflection
-
+This code incorporates two new concepts, such as rounding and .
 
 
 
