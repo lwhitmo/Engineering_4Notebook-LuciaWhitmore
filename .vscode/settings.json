@@ -8,22 +8,15 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.extraPaths": [
         ".vscode\\Pico-W-Stub\\stubs",
-<<<<<<< HEAD
-        ".vscode/Pico-W-Stub",
-        ".vscode/Pico-W-Stub/stubs"
-=======
-        ".vscode/Pico-W-Stub"
->>>>>>> origin/HEAD
+
+
     ],
     "picowgo.syncFolder": "",
     "picowgo.openOnStart": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none"
-<<<<<<< HEAD
+
     }
-=======
-    },
-    "micropico.syncFolder": "",
-    "micropico.openOnStart": true
->>>>>>> origin/HEAD
-}
+
+    }
+
