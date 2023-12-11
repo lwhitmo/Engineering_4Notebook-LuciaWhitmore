@@ -132,14 +132,14 @@ Wire up and write some code for an accelerometer that prints the x, y and z axes
 
 ### Wiring
 
-<img src="" width = 400>
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/accelerometer(CO).jpg" width = 400>
 
 ### Code
 Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/Crash%20Avoidance/Accelerometer(CO).py)
 
 
 ### Reflection
-This code incorporates two new concepts, such as rounding and .
+This code incorporates two new concepts, such as rounding and f strings. Rounding the acceleration values to three decimal places using the round function helps the code not to be ages long. F strings are an important formating tool. They help with readability and they are key for making your code simple, consise, and consistant. 
 
 
 
