@@ -178,6 +178,7 @@ The module should be equipped with an accelerometer for the continuous reporting
 ### Evidence
 
 ![blank](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/accelerometer3.gif)
+
 Unfortunately before I left CHS, i was not able to get a video of my OLED code and wiring working, but luckily [Elias Garcia](https://github.com/egarcia28) had a nifty video I borrowed (with permission).
 
 ### Wiring
