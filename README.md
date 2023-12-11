@@ -5,11 +5,13 @@
 ## Table of Contents
 * [Launchpad](#Launchpad)
     * [Countdown](#Countdown)
-    * [Lights](#LaunchpadPt.2_(Lights))
-    * [Button](#LaunchpadPt.3_(Button))
-    * [Servo](#LaunchpadPt.4_(Servo))
-* [Crash Avoidance](#Crash_Avoidance)
-    * [Accelerometer(CO)](#Accelerometer(CO))    
+    * [Lights](#Lights)
+    * [Button](#Button)
+    * [Servo](#Servo)
+* [Crash_Avoidance](#Crash_Avoidance)
+    * [Accelerometer](#Accelerometer)
+    * [Lights+Power](#Lights+Power)
+    * [OLED](#OLED)   
 * [FEA_Beam_Assignment](#FEA_Beam_Assignment)
 
 &nbsp;
@@ -38,7 +40,7 @@ When making the range loop, make sure that everything you want to have in that l
 
 &nbsp;
 
-## LaunchpadPt.2 (Lights)
+## Lights
 
 ### Assignment Description
 
@@ -62,7 +64,7 @@ When you are in the loop of range, make sure you order the led's turning on in t
 
 &nbsp;
 
-## LaunchpadPt.3_(Button)
+## Button
 
 ### Assignment Description
 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
@@ -87,7 +89,7 @@ Most importantly, when wiring your button make sure it correctly coresponds with
 
 &nbsp;
 
-## LaunchpadPt.4_(Servo)
+## Servo
 
 ### Assignment Description
 10 seconds till the countdown ends at 0 (liftoff). That countdown will be printed on the serial monitor.
@@ -119,7 +121,7 @@ When using the servo, connect brown --> gnd, red --> 3V3 and yellow --> pin. Als
 
 ## Crash_Avoidance
 
-## Accelerometer(CO)
+## Accelerometer
 
 ### Assignment Description
 Wire up and write some code for an accelerometer that prints the x, y and z axes of acceleration on the serial monitor in real time. 
@@ -143,7 +145,7 @@ This code incorporates two new concepts, such as rounding and .
 
 &nbsp;
 
-## Lights + Power (CO)
+## Lights+Power
 
 ### Assignment Description
 description
@@ -168,7 +170,7 @@ If you need an easy variable to check if something is not at 90 degrees in all i
 
 &nbsp;
 
-## OLED(CO)
+## OLED
 
 ### Assignment Description
 description
