@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Launchpad](#Launchpad)
-    * [Countdown](#Launchpad_Part_1)
+    * [Countdown](#Countdown)
     * [Lights](#LaunchpadPt.2_(Lights))
     * [Button](#LaunchpadPt.3_(Button))
     * [Servo](#LaunchpadPt.4_(Servo))
@@ -15,7 +15,7 @@
 &nbsp;
 
 # Launchpad 
-## Launchpad_Part_1
+## Countdown
 
 ### Assignment Description
 
