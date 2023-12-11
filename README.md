@@ -148,19 +148,19 @@ This code incorporates two new concepts, such as rounding and f strings. Roundin
 ## Lights_Power_Action
 
 ### Assignment Description
-description
+The module should include an accelerometer providing continuous reporting of acceleration values in the x, y, and z directions. Additionally, it should feature an LED that activates when the helicopter reaches a tilt of 90 degrees. Power for the module must be supplied by a mobile power source.
 
 
 ### Evidence
 
-![blank](gif)
+![light and power gif](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/lightandpower.gif)
 
 ### Wiring
 
-<img src="" width = 400>
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/power%2Blight(CO).jpg" width = 400>
 
 ### Code
-Link to my [code](). 
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/Crash%20Avoidance/Lights%20%2BPower(CO).py). 
 
 
 ### Reflection
@@ -173,23 +173,23 @@ If you need an easy variable to check if something is not at 90 degrees in all i
 ## OLED
 
 ### Assignment Description
-description
-
+The module should be equipped with an accelerometer for the continuous reporting of acceleration values in the x, y, and z directions. Additionally, it must feature an LED that activates when the helicopter is tilted to 90 degrees. Power for the module should be sourced from a mobile power supply. Furthermore, the module must include an onboard screen capable of displaying x, y, and z angular velocity values in radians per second, rounded to three decimal places.
 
 ### Evidence
 
-![blank](gif)
+![blank](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/accelerometer3.gif)
+Unfortunately before I left CHS, i was not able to get a video of my OLED code and wiring working, but luckily [Elias Garcia](https://github.com/egarcia28) had a nifty video I borrowed (with permission).
 
 ### Wiring
 
-<img src="" width = 400>
+<img src="https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/images/OLED(CO).jpg" width = 400>
 
 ### Code
-Link to my [code](). 
+Link to my [code](https://github.com/lwhitmo/Engineering_4Notebook-LuciaWhitmore/blob/main/raspberry-pi/Crash%20Avoidance/OLED(CO).py). 
 
 
 ### Reflection
-Use the multiple I2C code checker to check which devices you should use in your code. Also when adding the screen, you need to update the mpu = adafruit_mpu6050.MPU6050(i2c) line of your code to mpu = adafruit_mpu6050.MPU6050(i2c, address=your-address-here). (swap them out.)
+Use the multiple I2C code checker to check which devices you should use in your code. Also when adding the screen, you need to update the mpu = adafruit_mpu6050.MPU6050(i2c) line of your code to mpu = adafruit_mpu6050.MPU6050(i2c, address=your-address-here). (swap them out.) 
 
 
 
